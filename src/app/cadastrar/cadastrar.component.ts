@@ -41,10 +41,6 @@ export class CadastrarComponent implements OnInit {
         this.user = resp
         alert('Usuário cadastrado com sucesso!')
         this.router.navigate(['/entrar'])        
-      }, erro=> {
-        if(erro.status == 400) {
-          alert("Senha precisa conter no mínimo 8 caracteres!")
-        }
       })
     }
 
