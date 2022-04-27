@@ -1,8 +1,87 @@
-#img-bg {
-    background-image: url('https://i.imgur.com/xrJ9G3N.jpg');
-    
-    min-height: 100vh;
+.bg {
+    background: linear-gradient(#141e30, #243b55);
+}
 
-    background-repeat: no-repeat;
-    background-size: cover;
+.login-box {
+    width: 500px;
+    height: 400px;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    padding: 50px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    transition: .5s;
+}
+
+.login-box form a {
+    color: rgba(0,0,0,.5);
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 1px;
+    transition: 0.4s;
+  }
+  
+  .login-box form a:hover {
+    color: #fefefe;
+}
+  
+::placeholder{
+    color: white;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 6, 0.6);
+}
+
+.button a{
+    text-decoration: none;
+    height: 37px;
+    border-radius: 4px;
+    background-color: #141e30;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: #141e30;
+}
+
+.cad {
+    color: rgba(0,0,0,.5);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.cad:hover {
+    transition: 0.4s;
+    color: #fefefe;
 }

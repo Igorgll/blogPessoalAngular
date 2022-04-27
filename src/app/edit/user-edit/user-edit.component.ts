@@ -41,26 +41,6 @@ export class UserEditComponent implements OnInit {
     this.tipoUsuario = event.target.value
   }
 
-  // atualizar(){
-  //   this.user.tipo = this.tipoUsuario;
-
-  //   if(this.user.senha != this.confirmarSenha){
-  //     alert('As senhas estão incorretas.')
-  //   } else {
-  //     this.authService.cadastrar(this.user).subscribe((resp: User) => {
-  //       this.user = resp
-  //       this.router.navigate(['/inicio'])
-  //       alert('Usuário atualizado com sucesso, faço o login novamente')
-  //       environment.token =''
-  //       environment.nome =''
-  //       environment.foto =''
-  //       environment.id = 0
-
-  //       this.router.navigate(['/entrar'])
-  //     })
-  //   }
-  // }
-
   atualizar(){
       this.user.tipo = this.tipoUsuario
 
