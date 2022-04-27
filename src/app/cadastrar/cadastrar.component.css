@@ -68,7 +68,7 @@
     font-size: 25px;
     text-decoration: none;
     margin-top: 1px;
-    transition: 0.4s;
+    transition: 0.5s;
   }
   
   .login-box form a:hover {
