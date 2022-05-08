@@ -1,27 +1,12 @@
-# BlogPessoal
+# Blog Pessoal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Projeto desenvolvido durante o bootcamp da Generation Brasil com o intuíto de treinar tecnologias tanto do back quanto do front-end. O Blog tem funcionalidades como o **Cadastro** e **Login** do usuário onde guardamos tal informações encriptadas no banco de dados. Também presente nesse projeto temos funcionalidades como o post de uma idéia, ou pensamento que o usuário possa vir a ter vontade de guardar no Blog Pessoal, além também da possibilidade de criar **temas** para manter uma organização por assunto.
 
-## Development server
+## Back end
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para o desenvolvimento do back end foi usado tecnologias como Java e Springboot para criação da API do tipo REST. Além disso, para salvar informações usamos o banco de dados relacional MySQL. Para fazer o deploy do Back End utilizamos a plataforma em nuvem Heroku.
 
-## Code scaffolding
+## Front end
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para o desennvolvimento do front end foi usado o framework Angular e sua linguagem de base tipada TypeScript. Além disso para a estilização do Blog foi usado o Bootstrap como framework de CSS. Para fazer o deploy do Front End usamos a plataforma [Netlify](https://blopessoaligorlima.netlify.app/#/entrar).
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
